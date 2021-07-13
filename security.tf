@@ -12,3 +12,14 @@ tags = {
    name="allow_internet"
 }
 }
+/*
+resource "aws_eip" "myeip" {
+  /*instance = aws_instance.myec1.id*/
+  /*vpc      = true
+
+/*
+resource "aws_eip_association" "eip_association" {
+  instance_id   = aws_instance.myec1.id
+  allocation_id = aws_eip.myeip.id
+}
+*/
