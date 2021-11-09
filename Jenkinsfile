@@ -1,8 +1,8 @@
 pipeline {
    agent any
    environment {
-    n=santosh
-    v=vader
+    n='santosh'
+    v='vader'
    stages {
      stage (build) {
 	   steps {
