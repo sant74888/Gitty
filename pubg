@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Hi $1 here aka lord $2 in pubg"
+echo "Hi $n here aka lord $v in pubg"
