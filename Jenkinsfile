@@ -17,13 +17,10 @@ pipeline {
 		}
         stage (print) {
          steps {
-		 script{
-		   sh '''
-		   pubg $n $v
+		   sh '''pubg $n $v'''
 		   }
                     
           }
-	   }
-}	  
+   }	  
 }
 
