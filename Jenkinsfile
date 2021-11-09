@@ -1,5 +1,8 @@
 pipeline {
    agent any
+   environments {
+    n=santosh
+    v=vader
    stages {
      stage (build) {
 	   steps {
@@ -11,5 +14,11 @@ pipeline {
 	    echo "Build complete"
 		}
 		}
+        stage (print) {
+         steps {
+         sh pubg
+          }
 	   }
 }	  
+}
+}

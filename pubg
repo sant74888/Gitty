@@ -1,1 +1,2 @@
-Hi santosh here aka lord vader in pubg 
+#!/bin/sh
+echo "Hi $n here aka lord $v in pubg"
