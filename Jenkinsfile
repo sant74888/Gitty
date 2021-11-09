@@ -1,8 +1,9 @@
 pipeline {
    agent any
    environment {
-    n='santosh'
-    v='vader'
+    n = 'santosh'
+    v = 'vader'
+   }
    stages {
      stage (build) {
 	   steps {
@@ -16,9 +17,9 @@ pipeline {
 		}
         stage (print) {
          steps {
-         sh pubg
+            sh pubg
           }
 	   }
 }	  
 }
-}
+
