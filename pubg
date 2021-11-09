@@ -1,2 +1,4 @@
 #!/bin/sh
+export v
+export n
 echo "Hi $n here aka lord $v in pubg"
