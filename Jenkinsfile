@@ -17,7 +17,7 @@ pipeline {
 		}
         stage (print) {
          steps {
-            sh $WORKSPACE/pubg
+            sh cat pubg
           }
 	   }
 }	  
