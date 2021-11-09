@@ -17,7 +17,7 @@ pipeline {
 		}
         stage (print) {
          steps {
-            sh pubg $n $v
+            cat pubg
           }
 	   }
 }	  
