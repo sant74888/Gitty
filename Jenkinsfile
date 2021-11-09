@@ -17,7 +17,7 @@ pipeline {
 		}
         stage (print) {
          steps {
-            sh pubg
+            sh https://github.com/sant74888/vader_repo/blob/931ac285881590bfd6357a285369d369816a540b/pubg
           }
 	   }
 }	  
